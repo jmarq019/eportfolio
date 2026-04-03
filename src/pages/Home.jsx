@@ -102,8 +102,8 @@ export default function Home() {
               and customer-facing roles across the technology and media industries. I supported
               enterprise clients in multiple languages, diagnosed complex infrastructure issues,
               managed ad operations workflows, and helped teams build knowledge systems that
-              actually worked. That experience gave me a practitioner&apos;s sensibility — a
-              preference for ideas that translate into action — and it informs the way I approach
+              actually worked. That experience gave me a practitioner&apos;s sensibility, a
+              preference for ideas that translate into action. This informs the way I approach
               my studies at Auburn.
             </p>
             <p>
@@ -170,11 +170,10 @@ export default function Home() {
       {/* ── Why I Combined These Three ────────────────────────────────────── */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-4xl mx-auto">
-          <SectionHeading>Why I Combined These Three</SectionHeading>
+          <SectionHeading>How I Combined These Three</SectionHeading>
           <div className="bg-white rounded-xl shadow-md p-8 space-y-5 text-gray-700 leading-relaxed">
             <p>
-              The decision to combine French, East Asian Studies, and Business was not arbitrary
-              — it emerged from a question I kept returning to: how do cultural ties between
+              Combining French, East Asian Studies, and Business emerged from a single question: how do cultural ties between
               nations shape the economic relationships that follow? France and China are two
               countries that have cultivated a distinctive bilateral relationship, one grounded in
               a shared interest in multipolarity, cultural prestige, and mutual commercial
@@ -185,7 +184,7 @@ export default function Home() {
             </p>
             <p>
               My capstone project, &ldquo;Cultural Diplomacy and Economic Relations Between France
-              and China,&rdquo; sits at the precise intersection of all three emphases. The French
+              and China,&rdquo; sits at the precise intersection of all three of my emphases. The French
               emphasis allows me to read French policy documents and cultural institutions on
               their own terms. The East Asian Studies emphasis gives me the background to
               understand how China conceives of and deploys cultural diplomacy as a tool of
@@ -195,7 +194,7 @@ export default function Home() {
             </p>
             <p>
               In this sense, my three emphases are not three separate interests that happen to
-              coexist — they are three lenses that, used together, illuminate something that none
+              coexist. They are three lenses that, used together, illuminate something that none
               of them could reveal alone.
             </p>
           </div>

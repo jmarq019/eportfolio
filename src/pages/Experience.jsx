@@ -35,7 +35,7 @@ export default function Experience() {
   const jobs = [
     {
       title: 'Technical Operations Specialist',
-      employer: 'Sinclair Broadcast Group (NewsON)',
+      employer: 'NewsON',
       location: 'Seattle, WA (Remote)',
       dates: 'February 2022 – August 2025',
       bullets: [
@@ -47,7 +47,7 @@ export default function Experience() {
     },
     {
       title: 'Customer Care Advocate',
-      employer: 'Sendinblue',
+      employer: 'Brevo (Formerly Sendinblue)',
       location: 'Seattle, WA',
       dates: 'September 2018 – December 2021',
       bullets: [

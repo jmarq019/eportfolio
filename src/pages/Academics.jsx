@@ -150,12 +150,11 @@ export default function Academics() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
             <ArtifactCard
-              title="Artifact 1 — Capstone Project Proposal"
-              description="A formal memo submitted to Dr. Robin Sexton and Dr. Carolyn Fitzgerald proposing the capstone research project, outlining the research question, the interdisciplinary framework, and the plan for integrating French, East Asian Studies, and Business scholarship."
-              demonstrates="Academic writing, interdisciplinary synthesis, research planning, and the ability to connect cultural diplomacy with economic outcomes across three disciplines."
-              buttonLabel="View Proposal"
-              // TODO: Replace href="#" with the real file path once the proposal document is finalized.
-              // Example: href="/documents/capstone-proposal.pdf"
+              title="Artifact 1 — Capstone Project Thesis Paper"
+              description="A 34-page interdisciplinary thesis examining how cultural diplomacy and cross-cultural understanding between France and China have catalyzed bilateral economic growth. The paper integrates perspectives from French Studies, East Asian Studies, and Business, drawing on soft power theory, the coopetition framework, and the psychic distance literature to analyze trade flows, foreign direct investment, tourism, and the French wine export sector."
+              demonstrates="Advanced academic writing, interdisciplinary synthesis across three fields, rigorous engagement with multilingual scholarly sources, original analytical argumentation, and the ability to connect cultural diplomacy with measurable economic outcomes."
+              buttonLabel="View Thesis"
+              href="/documents/capstone-thesis.pdf"
             />
 
             <ArtifactCard

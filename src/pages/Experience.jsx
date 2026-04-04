@@ -179,14 +179,14 @@ export default function Experience() {
             <div className="bg-white rounded-xl shadow-md overflow-hidden border-2 border-dashed border-auburn-orange/40 flex flex-col transition-shadow duration-200 hover:shadow-lg">
               <div className="bg-auburn-orange/10 px-6 py-4 border-b border-auburn-orange/20">
                 <p className="text-auburn-orange font-bold text-xs uppercase tracking-widest">
-                  TODO — Fill In Your First Extracurricular
+                  Volunteer Japanese Tutor
                 </p>
               </div>
               <div className="px-6 py-5 flex-1 space-y-2 text-gray-400 text-sm">
-                <p><span className="font-semibold">Role / Title:</span> [Volunteer Japanese Tutor]</p>
-                <p><span className="font-semibold">Organization:</span> [Auburn University]</p>
-                <p><span className="font-semibold">Dates:</span> [2011 – 2014]</p>
-                <p><span className="font-semibold">Description:</span> [Assisted students with Japanese class assignments.]</p>
+                <p><span className="font-semibold">Role / Title:</span> Volunteer Japanese Tutor </p>
+                <p><span className="font-semibold">Organization:</span> Auburn University </p>
+                <p><span className="font-semibold">Dates:</span> 2011 – 2014 </p>
+                <p><span className="font-semibold">Description:</span> Assisted students with Japanese class assignments. </p>
               </div>
             </div>
 
@@ -201,14 +201,14 @@ export default function Experience() {
             <div className="bg-white rounded-xl shadow-md overflow-hidden border-2 border-dashed border-auburn-orange/40 flex flex-col transition-shadow duration-200 hover:shadow-lg">
               <div className="bg-auburn-orange/10 px-6 py-4 border-b border-auburn-orange/20">
                 <p className="text-auburn-orange font-bold text-xs uppercase tracking-widest">
-                  TODO — Fill In Your Second Extracurricular
+                  Cultural Outreach Chair
                 </p>
               </div>
               <div className="px-6 py-5 flex-1 space-y-2 text-gray-400 text-sm">
-                <p><span className="font-semibold">Role / Title:</span> [Cultural Outreach Chair]</p>
-                <p><span className="font-semibold">Organization:</span> [Auburn Latino Association of Students &lpr;ALAS&rpr;]</p>
-                <p><span className="font-semibold">Dates:</span> [2010 – 2013]</p>
-                <p><span className="font-semibold">Description:</span> [Aided the president of ALAS with event planning and execution.]</p>
+                <p><span className="font-semibold">Role / Title:</span> Cultural Outreach Chair </p>
+                <p><span className="font-semibold">Organization:</span> Auburn Latino Association of Students (ALAS) </p>
+                <p><span className="font-semibold">Dates:</span> 2010 – 2013 </p>
+                <p><span className="font-semibold">Description:</span> Aided the president of ALAS with event planning and execution. </p>
               </div>
             </div>
 

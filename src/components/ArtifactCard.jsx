@@ -45,6 +45,8 @@ export default function ArtifactCard({
       <div className="px-6 pb-6 mt-auto">
         <a
           href={href}
+          target={href !== '#' ? '_blank' : undefined}
+          rel={href !== '#' ? 'noopener noreferrer' : undefined}
           // Prevent default navigation when still a placeholder
           onClick={href === '#' ? (e) => e.preventDefault() : undefined}
           className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 ${

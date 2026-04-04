@@ -131,9 +131,9 @@ export default function Home() {
               project that synthesizes all three areas.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              This structure matters because the world&apos;s most pressing challenges —
+              This structure matters because the world&apos;s most pressing challenges such as
               international trade disputes, geopolitical realignments, cross-cultural
-              misunderstandings, the governance of emerging technologies — do not respect
+              misunderstandings, or the governance of emerging technologies, do not respect
               departmental boundaries. An interdisciplinary education equips graduates to move
               fluidly across fields, to translate between specialists, and to see connections that
               single-discipline training might obscure. For me, it has been the right framework
@@ -151,17 +151,18 @@ export default function Home() {
             <EmphasisCard
               emoji="🇫🇷"
               title="French"
-              description="Studying French has given me more than linguistic ability — it has given me access to an entire tradition of political thought, cultural policy, and diplomacy. My coursework has built an understanding of French governmental structure, Francophone civilization, and the long history of France's engagement with the wider world. Engaging with primary sources in French, whether policy documents, academic articles, or historical texts, has been essential to my capstone research on France-China cultural and economic relations."
+              description="My French emphasis grew out of a natural linguistic curiosity. As a native Spanish speaker, I discovered early on that I could readily comprehend written French, which sparked an interest I chose to pursue formally at Auburn University. Through my coursework, that initial curiosity evolved into a deeper understanding of French civilization, government, and culture — subjects I had the opportunity to study at an advanced level, entirely in French. This foundation proved invaluable in practice during my time at Brevo, a French enterprise where I engaged with colleagues and customers daily in both English and French, bridging language and professional culture in a real-world setting."
             />
             <EmphasisCard
               emoji="🌏"
               title="East Asian Studies"
-              description="East Asian Studies has given me the historical and cultural framework to understand China's rise as a global power — not just economically, but diplomatically and culturally. I have studied China's approach to cultural diplomacy, including the Confucius Institute network and its strategic logic, as well as the historical context that shapes Beijing's engagement with Western partners. This emphasis has made me a more careful and contextualized reader of contemporary international relations."
+              description="Adding East Asian Studies as an emphasis was a natural extension of a lifelong curiosity. From a young age, I was drawn to Asian languages and cultures, and at sixteen I began teaching myself Japanese entirely independently, an effort that ultimately allowed me to place out of the first semester of Auburn's Japanese language sequence. My coursework deepened that foundation considerably, expanding my perspective beyond Japan to encompass the broader cultural and historical landscape of East Asia. I studied Mandarin for a year and explored a range of topics including Chinese Folktales, Japanese Film, and Gender and Race in East Asian Culture, each course adding a new dimension to my understanding of a region that has long captivated me."
+
             />
             <EmphasisCard
               emoji="📊"
               title="Business"
-              description="The Business emphasis provides the analytical vocabulary to translate cultural and diplomatic insights into economic terms. I have studied frameworks for international trade, cross-cultural management, and economic analysis — tools that are essential for understanding how cultural exchanges between nations can create or close off commercial opportunities. Without this lens, my capstone research would remain abstract; with it, I can connect cultural policy to measurable economic outcomes."
+              description="My Business emphasis was a pragmatic choice, one that has equipped me with the foundational tools needed to integrate successfully into the professional world. A grounding in Economics, Marketing, Accounting, and Management has proven consistently applicable throughout my career, strengthening my ability to contribute meaningfully in each role I have held. This was perhaps most evident during my time at Sinclair Broadcast Group's NewsON, where I worked closely with the Ad Operations and Sales managers. My business knowledge translated directly into practice as I assisted ad partners with progress reports, modified existing campaigns, and helped configure new ones, demonstrating how academic frameworks can drive real operational outcomes."
             />
           </div>
         </div>
@@ -170,7 +171,7 @@ export default function Home() {
       {/* ── Why I Combined These Three ────────────────────────────────────── */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-4xl mx-auto">
-          <SectionHeading>How I Combined These Three</SectionHeading>
+          <SectionHeading>Achieving Interdisciplinarity Through My Capstone Project</SectionHeading>
           <div className="bg-white rounded-xl shadow-md p-8 space-y-5 text-gray-700 leading-relaxed">
             <p>
               Combining French, East Asian Studies, and Business emerged from a single question: how do cultural ties between

@@ -183,10 +183,10 @@ export default function Experience() {
                 </p>
               </div>
               <div className="px-6 py-5 flex-1 space-y-2 text-gray-400 text-sm">
-                <p><span className="font-semibold">Role / Title:</span> [Your role here]</p>
-                <p><span className="font-semibold">Organization:</span> [Organization name here]</p>
-                <p><span className="font-semibold">Dates:</span> [Start – End date]</p>
-                <p><span className="font-semibold">Description:</span> [Brief description of your involvement and contributions]</p>
+                <p><span className="font-semibold">Role / Title:</span> [Volunteer Japanese Tutor]</p>
+                <p><span className="font-semibold">Organization:</span> [Auburn University]</p>
+                <p><span className="font-semibold">Dates:</span> [2011 – 2014]</p>
+                <p><span className="font-semibold">Description:</span> [Assisted students with Japanese class assignments.]</p>
               </div>
             </div>
 
@@ -205,10 +205,10 @@ export default function Experience() {
                 </p>
               </div>
               <div className="px-6 py-5 flex-1 space-y-2 text-gray-400 text-sm">
-                <p><span className="font-semibold">Role / Title:</span> [Your role here]</p>
-                <p><span className="font-semibold">Organization:</span> [Organization name here]</p>
-                <p><span className="font-semibold">Dates:</span> [Start – End date]</p>
-                <p><span className="font-semibold">Description:</span> [Brief description of your involvement and contributions]</p>
+                <p><span className="font-semibold">Role / Title:</span> [Cultural Outreach Chair]</p>
+                <p><span className="font-semibold">Organization:</span> [Auburn Latino Association of Students &lpr;ALAS&rpr;]</p>
+                <p><span className="font-semibold">Dates:</span> [2010 – 2013]</p>
+                <p><span className="font-semibold">Description:</span> [Aided the president of ALAS with event planning and execution.]</p>
               </div>
             </div>
 

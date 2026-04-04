@@ -160,7 +160,7 @@ export default function Academics() {
             <ArtifactCard
               title="Artifact 2 — JLPT N3 Certificate"
               description="An official certificate from the Japanese-Language Proficiency Test (JLPT) at the N3 level, demonstrating conversational-level Japanese reading and listening comprehension. The JLPT is administered by the Japan Foundation and is the most widely recognized Japanese language certification worldwide."
-              demonstrates="Sustained commitment to independent language learning, cross-cultural competence beyond the Romance language family, and the self-discipline required to achieve a nationally recognized proficiency benchmark in a language studied primarily outside of a formal classroom setting."
+              demonstrates="Sustained commitment to independent language learning, cross-cultural competence beyond the Romance language family, and the self-discipline required to achieve a nationally recognized proficiency benchmark in a language studied within the classroom setting as well as independently."
               buttonLabel="View Certificate"
               href="/documents/jlpt-n3.pdf"
             />

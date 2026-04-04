@@ -12,10 +12,10 @@ export default function ArtifactCard({
   title,
   description,
   demonstrates,
-  buttonLabel = 'View Document',
+  buttonLabel,
   // TODO: Replace href="#" with the real file URL once capstone documents are finalized.
   // Example: href="/documents/capstone-proposal.pdf"
-  href = '#',
+  href,
 }) {
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden border-l-4 border-auburn-orange flex flex-col transition-shadow duration-200 hover:shadow-lg">
@@ -41,7 +41,8 @@ export default function ArtifactCard({
         </div>
       </div>
 
-      {/* Card footer — download/view button */}
+      {/* Card footer — download/view button (hidden when no buttonLabel is provided) */}
+      {buttonLabel && (
       <div className="px-6 pb-6 mt-auto">
         <a
           href={href}
@@ -78,6 +79,7 @@ export default function ArtifactCard({
           )}
         </a>
       </div>
+      )}
     </div>
   )
 }

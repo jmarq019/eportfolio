@@ -150,7 +150,7 @@ export default function Academics() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
             <ArtifactCard
-              title="Artifact 1 — Capstone Project Thesis Paper"
+              title="Capstone Project Thesis Paper"
               description="A 34-page interdisciplinary thesis examining how cultural diplomacy and cross-cultural understanding between France and China have catalyzed bilateral economic growth. The paper integrates perspectives from French Studies, East Asian Studies, and Business, drawing on soft power theory, the coopetition framework, and the psychic distance literature to analyze trade flows, foreign direct investment, tourism, and the French wine export sector."
               demonstrates="Advanced academic writing, interdisciplinary synthesis across three fields, rigorous engagement with multilingual scholarly sources, original analytical argumentation, and the ability to connect cultural diplomacy with measurable economic outcomes."
               buttonLabel="View Thesis"
@@ -158,7 +158,7 @@ export default function Academics() {
             />
 
             <ArtifactCard
-              title="Artifact 2 — JLPT N3 Certificate"
+              title="JLPT N3 Certificate"
               description="An official certificate from the Japanese-Language Proficiency Test (JLPT) at the N3 level, demonstrating conversational-level Japanese reading and listening comprehension. The JLPT is administered by the Japan Foundation and is the most widely recognized Japanese language certification worldwide."
               demonstrates="Sustained commitment to independent language learning, cross-cultural competence beyond the Romance language family, and the self-discipline required to achieve a nationally recognized proficiency benchmark in a language studied within the classroom setting as well as independently."
               buttonLabel="View Certificate"
@@ -166,7 +166,7 @@ export default function Academics() {
             />
 
             <ArtifactCard
-              title="Artifact 3 — UW Full-Stack Web Development Certification"
+              title="UW Full-Stack Web Development Certification"
               description="A professional certification in full-stack web development completed at the University of Washington, covering JavaScript, HTML, CSS, SQL, Node.js, and React — as demonstrated by this very ePortfolio."
               demonstrates="Technical proficiency in modern web development, commitment to continuous professional learning, and the ability to build production-grade web applications that serve a real communicative purpose."
               buttonLabel="View Certification"

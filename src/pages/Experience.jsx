@@ -221,7 +221,7 @@ export default function Experience() {
         <div className="max-w-4xl mx-auto">
           <SectionHeading>Personal Reflection</SectionHeading>
           <ArtifactCard
-            title="Artifact 4 — Personal Reflection Statement"
+            title="Personal Reflection Statement"
             description={reflectionText}
             demonstrates="Self-awareness, integrative thinking, and the ability to articulate a coherent professional and intellectual identity that bridges technical operations, multilingual communication, and interdisciplinary academic study."
             buttonLabel="Download Reflection"

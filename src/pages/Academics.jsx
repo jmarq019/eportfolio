@@ -171,8 +171,7 @@ export default function Academics() {
               description="A professional certification in full-stack web development completed at the University of Washington, covering JavaScript, HTML, CSS, SQL, Node.js, and React — as demonstrated by this very ePortfolio."
               demonstrates="Technical proficiency in modern web development, commitment to continuous professional learning, and the ability to build production-grade web applications that serve a real communicative purpose."
               buttonLabel="View Certification"
-              // TODO: Replace href="#" with the real file path or credential link once available.
-              // Example: href="/documents/uw-certification.pdf"
+              href="/documents/development-certification.pdf"
             />
 
           </div>

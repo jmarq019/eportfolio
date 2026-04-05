@@ -2,7 +2,7 @@
 
 ## Description
 
-A personal academic ePortfolio for Jorge A. Márquez Barragán, a senior at Auburn University pursuing a Bachelor of Interdisciplinary Studies with emphases in French, East Asian Studies, and Business. The site presents Jorge's academic background, capstone research on cultural diplomacy and economic relations between France and China, professional work experience, and selected artifacts including his capstone thesis, JLPT N3 certificate, and UW full-stack web development certification.
+A personal academic ePortfolio for IDSC 4930, a senior capstone project class at Auburn University for students pursuing a Bachelor of Interdisciplinary Studies. My emphases are French, East Asian Studies, and Business. The site presents my academic background, capstone research on cultural diplomacy and economic relations between France and China, professional work experience, and selected artifacts including his capstone thesis, JLPT N3 certificate, and UW full-stack web development certification.
 
 **Live site:** https://eportfolio-mu-six.vercel.app/
 

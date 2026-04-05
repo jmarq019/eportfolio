@@ -11,7 +11,7 @@ export default function Footer() {
 
           {/* University */}
           <span className="text-gray-300">
-            Auburn University &mdash; Bachelor of Interdisciplinary Studies
+            Auburn University | Bachelor of Interdisciplinary Studies
           </span>
 
           {/* LinkedIn */}

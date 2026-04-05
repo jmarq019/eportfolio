@@ -52,7 +52,7 @@ export default function Academics() {
           <SectionHeading>Education</SectionHeading>
           <div className="flex flex-col gap-4">
             <EducationEntry
-              degree="Bachelor of Science, Interdisciplinary Studies — French | East Asian Studies | Business"
+              degree="Bachelor of Science, Interdisciplinary Studies: French | East Asian Studies | Business"
               institution="Auburn University"
               location="Auburn, AL"
               status="Expected Spring 2026"
@@ -103,7 +103,7 @@ export default function Academics() {
                 {
                   label: 'East Asian Studies',
                   detail:
-                    'Examining China&rsquo;s approach to cultural diplomacy — including the strategic role of Confucius Institutes, state media, and people-to-people exchange programs — within the broader context of Chinese foreign policy.',
+                    'Examining China&rsquo;s approach to cultural diplomacy, including the strategic role of Confucius Institutes, state media, and people-to-people exchange programs, within the broader context of Chinese foreign policy.',
                 },
                 {
                   label: 'Business',
@@ -167,7 +167,7 @@ export default function Academics() {
 
             <ArtifactCard
               title="UW Full-Stack Web Development Certification"
-              description="A professional certification in full-stack web development completed at the University of Washington, covering JavaScript, HTML, CSS, SQL, Node.js, and React — as demonstrated by this very ePortfolio."
+              description="A professional certification in full-stack web development completed at the University of Washington, covering JavaScript, HTML, CSS, SQL, Node.js, and React, as demonstrated by this very ePortfolio."
               demonstrates="Technical proficiency in modern web development, commitment to continuous professional learning, and the ability to build production-grade web applications that serve a real communicative purpose."
               buttonLabel="View Certification"
               href="/documents/development-certification.pdf"

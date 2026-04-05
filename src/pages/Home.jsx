@@ -53,7 +53,7 @@ export default function Home() {
               Jorge A. Márquez Barragán
             </h1>
             <p className="text-auburn-orange font-semibold text-lg">
-              Interdisciplinary Studies &mdash; Auburn University
+              Interdisciplinary Studies | Auburn University
             </p>
             <p className="text-gray-300 text-base">
               French &nbsp;&bull;&nbsp; East Asian Studies &nbsp;&bull;&nbsp; Business
@@ -151,7 +151,7 @@ export default function Home() {
             <EmphasisCard
               emoji="🇫🇷"
               title="French"
-              description="My French emphasis grew out of a natural linguistic curiosity. As a native Spanish speaker, I discovered early on that I could readily comprehend written French, which sparked an interest I chose to pursue formally at Auburn University. Through my coursework, that initial curiosity evolved into a deeper understanding of French civilization, government, and culture — subjects I had the opportunity to study at an advanced level, entirely in French. This foundation proved invaluable in practice during my time at Brevo, a French enterprise where I engaged with colleagues and customers daily in both English and French, bridging language and professional culture in a real-world setting."
+              description="My French emphasis grew out of a natural linguistic curiosity. As a native Spanish speaker, I discovered early on that I could readily comprehend written French, which sparked an interest I chose to pursue formally at Auburn University. Through my coursework, that initial curiosity evolved into a deeper understanding of French civilization, government, and culture, all subjects I had the opportunity to study at an advanced level, entirely in French. This foundation proved invaluable in practice during my time at Brevo, a French enterprise where I engaged with colleagues and customers daily in both English and French, bridging language and professional culture in a real-world setting."
             />
             <EmphasisCard
               emoji="🌏"
@@ -179,7 +179,7 @@ export default function Home() {
               countries that have cultivated a distinctive bilateral relationship, one grounded in
               a shared interest in multipolarity, cultural prestige, and mutual commercial
               benefit. But that relationship is not simply a product of trade statistics and
-              diplomatic protocols. It is built on cultural investments — student exchanges,
+              diplomatic protocols. It is built on cultural investments: student exchanges,
               cultural institutes, co-productions, and decades of deliberate people-to-people
               engagement.
             </p>

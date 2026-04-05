@@ -78,7 +78,7 @@ export default function Experience() {
         'Spanish (native fluency)',
         'French (conversational)',
         'Portuguese (conversational and written)',
-        'Japanese (conversational — JLPT N3 certified)',
+        'Japanese (conversational, JLPT N3 certified)',
       ],
     },
     {
@@ -109,7 +109,7 @@ export default function Experience() {
   const reflectionText =
     'My years working in technical operations and multilingual customer support taught me that ' +
     'the most effective professionals are those who can move fluently between technical systems ' +
-    'and human contexts — and that the ability to communicate across cultural and linguistic ' +
+    'and human contexts, and that the ability to communicate across cultural and linguistic ' +
     'boundaries is not a soft skill but a strategic one. Returning to school at Auburn University ' +
     'to pursue an Interdisciplinary Studies degree in French, East Asian Studies, and Business has ' +
     'given me the conceptual frameworks to make sense of experiences I had accumulated in practice: ' +

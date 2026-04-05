@@ -16,7 +16,7 @@ function EmphasisCard({ emoji, title, description }) {
 // ─── Section Heading Helper ───────────────────────────────────────────────────
 function SectionHeading({ children }) {
   return (
-    <h2 className="text-2xl md:text-3xl font-bold text-auburn-navy mb-4 pb-3 border-b-2 border-auburn-orange/30">
+    <h2 className="text-3xl md:text-4xl font-bold text-auburn-navy mb-4 pb-3 border-b-2 border-auburn-orange/30">
       {children}
     </h2>
   )
@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-white font-heading">
+            <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-white font-heading">
               Jorge A. Márquez Barragán
             </h1>
             <p className="text-auburn-orange font-semibold text-lg">
@@ -171,7 +171,9 @@ export default function Home() {
       {/* ── Why I Combined These Three ────────────────────────────────────── */}
       <section className="py-16 px-4 bg-warm-gray">
         <div className="max-w-content mx-auto">
-          <SectionHeading>Achieving Interdisciplinarity Through My Capstone Project</SectionHeading>
+          <h2 className="text-2xl md:text-3xl font-bold text-auburn-navy mb-4 pb-3 border-b-2 border-auburn-orange/30">
+            Achieving Interdisciplinarity Through My Capstone Project
+          </h2>
           <div className="bg-white rounded-xl shadow-md p-8 space-y-5 text-gray-700 leading-relaxed">
             <p>
               Combining French, East Asian Studies, and Business emerged from a single question: how do cultural ties between

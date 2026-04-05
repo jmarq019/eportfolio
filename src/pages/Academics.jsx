@@ -3,7 +3,7 @@ import ArtifactCard from '../components/ArtifactCard'
 // ─── Section Heading Helper ───────────────────────────────────────────────────
 function SectionHeading({ children }) {
   return (
-    <h2 className="text-2xl md:text-3xl font-bold text-auburn-navy mb-6 pb-3 border-b-2 border-auburn-orange/30">
+    <h2 className="text-3xl md:text-4xl font-bold text-auburn-navy mb-6 pb-3 border-b-2 border-auburn-orange/30">
       {children}
     </h2>
   )
@@ -37,7 +37,7 @@ export default function Academics() {
       {/* ── Page Hero ──────────────────────────────────────────────────────── */}
       <section className="bg-gradient-to-b from-auburn-navy via-auburn-navy to-[#041e3a] text-white py-16 px-4">
         <div className="max-w-content mx-auto text-center animate-fade-in-up">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight font-heading">
+          <h1 className="text-5xl md:text-6xl font-bold tracking-tight font-heading">
             Academics &amp; Capstone
           </h1>
           <p className="mt-3 text-gray-300 text-base md:text-lg max-w-2xl mx-auto">

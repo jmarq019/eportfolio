@@ -12,7 +12,7 @@ function App() {
       <Navbar />
 
       {/* Main content area grows to fill space between navbar and footer */}
-      <main className="flex-1 bg-gray-50">
+      <main className="flex-1 bg-warm-gray">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/academics" element={<Academics />} />

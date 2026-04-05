@@ -35,9 +35,9 @@ export default function Academics() {
     <div className="flex flex-col">
 
       {/* ── Page Hero ──────────────────────────────────────────────────────── */}
-      <section className="bg-auburn-navy text-white py-14 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
+      <section className="bg-gradient-to-b from-auburn-navy via-auburn-navy to-[#041e3a] text-white py-16 px-4">
+        <div className="max-w-content mx-auto text-center animate-fade-in-up">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight font-heading">
             Academics &amp; Capstone
           </h1>
           <p className="mt-3 text-gray-300 text-base md:text-lg max-w-2xl mx-auto">
@@ -48,7 +48,7 @@ export default function Academics() {
 
       {/* ── Education ──────────────────────────────────────────────────────── */}
       <section className="py-16 px-4 bg-white">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-content mx-auto">
           <SectionHeading>Education</SectionHeading>
           <div className="flex flex-col gap-4">
             <EducationEntry
@@ -68,8 +68,8 @@ export default function Academics() {
       </section>
 
       {/* ── Capstone Project ───────────────────────────────────────────────── */}
-      <section className="py-16 px-4 bg-gray-50">
-        <div className="max-w-4xl mx-auto">
+      <section className="py-16 px-4 bg-warm-gray">
+        <div className="max-w-content mx-auto">
           <SectionHeading>Capstone Project</SectionHeading>
 
           {/* Title + thesis */}
@@ -113,7 +113,7 @@ export default function Academics() {
               ].map(({ label, detail }) => (
                 <div
                   key={label}
-                  className="bg-gray-50 rounded-lg p-4 border-t-2 border-auburn-orange"
+                  className="bg-warm-gray rounded-lg p-4 border-t-2 border-auburn-orange"
                 >
                   <p className="text-auburn-navy font-semibold text-sm mb-2">{label}</p>
                   <p
@@ -145,7 +145,7 @@ export default function Academics() {
 
       {/* ── Artifacts ──────────────────────────────────────────────────────── */}
       <section className="py-16 px-4 bg-white">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-content mx-auto">
           <SectionHeading>Academic Artifacts</SectionHeading>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 

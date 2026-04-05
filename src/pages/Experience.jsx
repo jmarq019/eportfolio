@@ -13,18 +13,20 @@ function SectionHeading({ children }) {
 // ─── Skill Group ─────────────────────────────────────────────────────────────
 function SkillGroup({ title, skills }) {
   return (
-    <div className="bg-white rounded-xl shadow-md p-6 flex flex-col gap-3 transition-shadow duration-200 hover:shadow-lg">
+    <div className="bg-white rounded-xl shadow-md p-6 flex flex-col gap-3 transition-all duration-200 hover:shadow-xl hover:-translate-y-1">
       <h3 className="text-auburn-navy font-bold text-base border-b border-auburn-orange/30 pb-2 mb-1">
         {title}
       </h3>
-      <ul className="space-y-1.5">
+      <div className="flex flex-wrap gap-2">
         {skills.map((skill) => (
-          <li key={skill} className="flex items-start gap-2 text-gray-600 text-sm leading-relaxed">
-            <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-auburn-orange flex-shrink-0" />
+          <span
+            key={skill}
+            className="inline-block bg-auburn-navy text-white text-xs font-medium px-3 py-1.5 rounded-full"
+          >
             {skill}
-          </li>
+          </span>
         ))}
-      </ul>
+      </div>
     </div>
   )
 }
@@ -126,9 +128,9 @@ export default function Experience() {
     <div className="flex flex-col">
 
       {/* ── Page Hero ──────────────────────────────────────────────────────── */}
-      <section className="bg-auburn-navy text-white py-14 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
+      <section className="bg-gradient-to-b from-auburn-navy via-auburn-navy to-[#041e3a] text-white py-16 px-4">
+        <div className="max-w-content mx-auto text-center animate-fade-in-up">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight font-heading">
             Experience &amp; Involvement
           </h1>
           <p className="mt-3 text-gray-300 text-base md:text-lg max-w-2xl mx-auto">
@@ -140,7 +142,7 @@ export default function Experience() {
 
       {/* ── Work Experience ────────────────────────────────────────────────── */}
       <section className="py-16 px-4 bg-white">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-content mx-auto">
           <SectionHeading>Work Experience</SectionHeading>
           <div className="flex flex-col gap-6">
             {jobs.map((job) => (
@@ -151,8 +153,8 @@ export default function Experience() {
       </section>
 
       {/* ── Skills ─────────────────────────────────────────────────────────── */}
-      <section className="py-16 px-4 bg-gray-50">
-        <div className="max-w-4xl mx-auto">
+      <section className="py-16 px-4 bg-warm-gray">
+        <div className="max-w-content mx-auto">
           <SectionHeading>Skills</SectionHeading>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {skillGroups.map((group) => (
@@ -164,7 +166,7 @@ export default function Experience() {
 
       {/* ── Extracurriculars / Volunteering ───────────────────────────────── */}
       <section className="py-16 px-4 bg-white">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-content mx-auto">
           <SectionHeading>Extracurriculars &amp; Volunteering</SectionHeading>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
@@ -217,8 +219,8 @@ export default function Experience() {
       </section>
 
       {/* ── Artifact 4: Personal Reflection Statement ─────────────────────── */}
-      <section className="py-16 px-4 bg-gray-50">
-        <div className="max-w-4xl mx-auto">
+      <section className="py-16 px-4 bg-warm-gray">
+        <div className="max-w-content mx-auto">
           <SectionHeading>Personal Reflection</SectionHeading>
           <ArtifactCard
             title="Personal Reflection Statement"

@@ -6,6 +6,7 @@
 body {
   margin: 0;
   font-family: 'Inter', system-ui, sans-serif;
+  background-color: #F9F8F7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,4 +15,14 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+/* Headings use Playfair Display */
+h1, h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Body text line-height */
+p {
+  line-height: 1.75;
 }

@@ -10,7 +10,7 @@
  */
 export default function ExperienceCard({ title, employer, location, dates, bullets }) {
   return (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden transition-shadow duration-200 hover:shadow-lg">
+    <div className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-200 hover:shadow-xl hover:-translate-y-1">
       {/* Header bar */}
       <div className="bg-auburn-navy px-6 py-4">
         <h3 className="text-white font-bold text-lg leading-snug">{title}</h3>

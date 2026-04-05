@@ -18,7 +18,7 @@ export default function ArtifactCard({
   href,
 }) {
   return (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden border-l-4 border-auburn-orange flex flex-col transition-shadow duration-200 hover:shadow-lg">
+    <div className="bg-white rounded-xl shadow-md overflow-hidden border-l-4 border-auburn-orange flex flex-col transition-all duration-200 hover:shadow-xl hover:-translate-y-1">
       {/* Card header */}
       <div className="px-6 pt-6 pb-4">
         <h3 className="text-auburn-navy font-bold text-lg leading-snug mb-3">

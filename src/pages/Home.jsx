@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 // ─── Emphasis Card ───────────────────────────────────────────────────────────
 function EmphasisCard({ emoji, title, description }) {
   return (
-    <div className="bg-white rounded-xl shadow-md p-6 flex flex-col gap-3 transition-shadow duration-200 hover:shadow-lg border-t-4 border-auburn-orange">
+    <div className="bg-white rounded-xl shadow-md p-6 flex flex-col gap-3 transition-all duration-200 hover:shadow-xl hover:-translate-y-1 border-t-4 border-auburn-orange">
       <span className="text-4xl" role="img" aria-label={title}>
         {emoji}
       </span>
@@ -28,8 +28,8 @@ export default function Home() {
     <div className="flex flex-col">
 
       {/* ── Hero Section ─────────────────────────────────────────────────── */}
-      <section className="bg-auburn-navy text-white py-20 px-4">
-        <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-6">
+      <section className="bg-gradient-to-b from-auburn-navy via-auburn-navy to-[#041e3a] text-white py-20 px-4">
+        <div className="max-w-content mx-auto flex flex-col items-center text-center gap-6 animate-fade-in-up">
 
           {/*
             TODO: Replace this avatar placeholder with a real profile photo.
@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-white">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-white font-heading">
               Jorge A. Márquez Barragán
             </h1>
             <p className="text-auburn-orange font-semibold text-lg">
@@ -86,7 +86,7 @@ export default function Home() {
 
       {/* ── About Me ─────────────────────────────────────────────────────── */}
       <section className="py-16 px-4 bg-white">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-content mx-auto">
           <SectionHeading>About Me</SectionHeading>
           <div className="space-y-5 text-gray-700 leading-relaxed">
             <p>
@@ -118,8 +118,8 @@ export default function Home() {
       </section>
 
       {/* ── What is Interdisciplinary Studies? ───────────────────────────── */}
-      <section className="py-16 px-4 bg-gray-50">
-        <div className="max-w-4xl mx-auto">
+      <section className="py-16 px-4 bg-warm-gray">
+        <div className="max-w-content mx-auto">
           <SectionHeading>What Is Interdisciplinary Studies?</SectionHeading>
           <div className="bg-white rounded-xl shadow-md p-8 border-l-4 border-auburn-orange">
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -145,7 +145,7 @@ export default function Home() {
 
       {/* ── My Three Emphases ─────────────────────────────────────────────── */}
       <section className="py-16 px-4 bg-white">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-content mx-auto">
           <SectionHeading>My Three Emphases</SectionHeading>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <EmphasisCard
@@ -169,8 +169,8 @@ export default function Home() {
       </section>
 
       {/* ── Why I Combined These Three ────────────────────────────────────── */}
-      <section className="py-16 px-4 bg-gray-50">
-        <div className="max-w-4xl mx-auto">
+      <section className="py-16 px-4 bg-warm-gray">
+        <div className="max-w-content mx-auto">
           <SectionHeading>Achieving Interdisciplinarity Through My Capstone Project</SectionHeading>
           <div className="bg-white rounded-xl shadow-md p-8 space-y-5 text-gray-700 leading-relaxed">
             <p>

@@ -171,9 +171,7 @@ export default function Home() {
       {/* ── Why I Combined These Three ────────────────────────────────────── */}
       <section className="py-16 px-4 bg-warm-gray">
         <div className="max-w-content mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-auburn-navy mb-4 pb-3 border-b-2 border-auburn-orange/30">
-            Achieving Interdisciplinarity Through My Capstone Project
-          </h2>
+          <SectionHeading>Achieving Interdisciplinarity Through My Capstone Project</SectionHeading>
           <div className="bg-white rounded-xl shadow-md p-8 space-y-5 text-gray-700 leading-relaxed">
             <p>
               Combining French, East Asian Studies, and Business emerged from a single question: how do cultural ties between

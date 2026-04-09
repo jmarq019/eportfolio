@@ -32,7 +32,7 @@ export default function Home() {
         <div className="max-w-content mx-auto flex flex-col items-center text-center gap-6 animate-fade-in-up">
 
           <img
-            src="/pictures/portfolio_pic_1.jpeg"
+            src="/pictures/portfolio_pic_1.png"
             alt="Jorge A. Márquez Barragán"
             className="w-36 h-36 rounded-full object-cover border-4 border-auburn-orange shadow-xl"
           />

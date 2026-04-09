@@ -31,22 +31,11 @@ export default function Home() {
       <section className="bg-gradient-to-b from-auburn-navy via-auburn-navy to-[#041e3a] text-white py-20 px-4">
         <div className="max-w-content mx-auto flex flex-col items-center text-center gap-6 animate-fade-in-up">
 
-          {/*
-            TODO: Replace this avatar placeholder with a real profile photo.
-            Step 1: Add your photo file (e.g., "profile.jpg") to the /public folder.
-            Step 2: Delete the entire <div> avatar block below.
-            Step 3: Replace it with:
-                <img
-                  src="/profile.jpg"
-                  alt="Jorge A. Márquez Barragán"
-                  className="w-36 h-36 rounded-full object-cover border-4 border-auburn-orange shadow-xl"
-                />
-          */}
-          <div className="w-36 h-36 rounded-full bg-auburn-orange flex items-center justify-center shadow-xl border-4 border-white/20">
-            <span className="text-white font-bold text-4xl tracking-wide select-none">
-              JM
-            </span>
-          </div>
+          <img
+            src="/pictures/portfolio_pic_1.jpeg"
+            alt="Jorge A. Márquez Barragán"
+            className="w-36 h-36 rounded-full object-cover border-4 border-auburn-orange shadow-xl"
+          />
 
           <div className="flex flex-col gap-2">
             <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-white font-heading">
